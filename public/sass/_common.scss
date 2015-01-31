@@ -1,0 +1,106 @@
+body {
+	background: #f2f2f2;
+	padding-top: 100px;
+	font-family: Lato;
+	color: #334e5d;
+	padding-bottom: 100px;
+}
+
+.btn-default {
+	color: #334e5d;
+	.glyphicon {
+		margin-right: 4px;
+	}
+}
+
+$nesti-green: #00B2AC;
+$nesti-orange: #F05B4B;
+$nesti-blue: #334E5D;
+$nesti-lg: #2ecc71;
+$nesti-purple: #9b59b6;
+
+.dz-size{
+	display: none;
+}
+
+.bootstrap-tagsinput{
+	.label-info{
+		background: $nesti-blue;
+	}
+	.label{
+		font-size: 14px;
+		margin-bottom: 4px;
+		display: inline-block;
+		font-family: Lato;
+		font-weight: 400;
+	}
+}
+
+.timeago{
+	border: none !important;
+}
+
+
+.twitter-typeahead .tt-query,
+.twitter-typeahead .tt-hint {
+  margin-bottom: 0;
+}
+
+.twitter-typeahead .tt-hint
+{
+    display: none;
+}
+
+.tt-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.tt-suggestion > p {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+.tt-suggestion > p:hover,
+.tt-suggestion > p:focus,
+.tt-suggestion.tt-cursor p {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca;
+}
+
+
+.nesti-label{
+  color: #ffffff;
+  background: $nesti-orange;
+  padding: 2px 4px 2px 4px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+  .actions{
+    float: right;
+    a{
+      margin-left: 2px !important;
+    }
+  }

@@ -1,0 +1,1 @@
+$(function(){$(".slider").noUiSlider({start:[200,600],step:10,range:{min:0,max:2e3}}),$(".slider").Link("lower").to($("#rent-min")),$(".slider").Link("upper").to($("#rent-max")),$(".amenity-btn").click(function(){var t=$(this).attr("data-class")+"-selected";$(this).toggleClass(t)})});

@@ -1,0 +1,47 @@
+.navbar {
+	background: #ffffff;
+	height: 60px;
+	ul {
+		list-style: none;
+		float: right;
+		li {
+			display: inline-block;
+			a {
+				height: 60px;
+				color: #334e5d;
+				text-decoration: none;
+				display: inline-block;
+				padding: 20px 15px 0 15px;
+			}
+		}
+		li:last-child {
+			a{
+				padding-right: 0;
+			}	
+		}
+	}
+	.logo {
+		margin: 12px 15px 0 0;
+		width: 109px;
+		float: left;
+	}
+	.avatar{
+		width: 40px;
+		border-radius: 20px;
+		margin-top: -4px;
+	}
+	input {
+		width: 250px;
+		margin: 12px 15px 0 0;
+		box-shadow: none;
+		float: left;
+	}
+	.btn {
+		margin: 12px 10px 0 0;
+		color: #334e5d;
+	}
+	.glyphicon {
+		margin: 0 4px 0 0;
+	}
+}
+

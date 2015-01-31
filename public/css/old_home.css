@@ -1,0 +1,231 @@
+body {
+  font-family: Lato; }
+
+h1 {
+  font-weight: 300; }
+
+.logo {
+  margin-top: 40px;
+  float: left; }
+  .logo img {
+    width: 89px; }
+
+.container-fluid.home-top {
+  height: 1084px;
+  background-image: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navigation {
+  float: right;
+  margin-top: 40px;
+  display: inline-block; }
+  .navigation li {
+    display: inline-block;
+    padding: 0 15px 0 15px; }
+    .navigation li a {
+      font-family: Lato;
+      font-weight: 100;
+      color: #ffffff; }
+  .navigation .avatar {
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 10px; }
+
+.search-container {
+  margin-top: 200px; }
+  .search-container h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 59px;
+    font-weight: 300; }
+
+.nesti-search {
+  margin-top: 40px; }
+  .nesti-search input {
+    font-weight: 300;
+    padding: 10px;
+    border-color: #ffffff;
+    height: 66px;
+    font-size: 20px;
+    box-shadow: none; }
+  .nesti-search button {
+    background: #f05b4b;
+    color: #ffffff;
+    font-weight: 300;
+    border-color: #f05b4b;
+    height: 66px; }
+  .nesti-search .btn-bird {
+    width: 20px;
+    margin-right: 8px; }
+
+.info-box {
+  margin: 70px 30px 0 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300; }
+  .info-box p {
+    font-size: 14px;
+    text-transform: uppercase; }
+
+.scroll {
+  width: 24px;
+  display: block;
+  margin: 200px auto; }
+
+.intro-text {
+  font-weight: 300;
+  color: #334e5d;
+  margin-top: 50px;
+  text-align: center; }
+  .intro-text p {
+    margin-top: 30px;
+    font-size: 20px; }
+
+.service {
+  font-weight: 300;
+  color: #334e5d;
+  text-align: center;
+  margin: 70px 0 100px 0;
+  padding: 0 20px 0 20px; }
+  .service p {
+    font-size: 16px; }
+
+.listings-section {
+  height: 650px;
+  background: #f2f2f2;
+  border-top: 1px solid #dcdcdc; }
+
+.listings-intro {
+  margin: 50px 0 50px 0;
+  text-align: center;
+  font-weight: 300;
+  color: #334e5d; }
+  .listings-intro p {
+    margin-top: 30px;
+    font-size: 16px; }
+
+.listing-container {
+  border-radius: 6px;
+  background: #ffffff;
+  height: 365px;
+  font-weight: 300;
+  padding: 10px;
+  box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.28); }
+  .listing-container .photo-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px; }
+    .listing-container .photo-container a {
+      display: inline-block;
+      width: 100%;
+      height: 100%; }
+  .listing-container .glyphicon-map-marker {
+    color: #334e5d;
+    margin-right: 2px; }
+  .listing-container .glyphicon-time {
+    color: #334e5d;
+    margin-right: 2px;
+    margin-left: 10px; }
+  .listing-container .location {
+    display: inline-block;
+    margin-top: 4px; }
+  .listing-container img.heart-icon {
+    width: 32px;
+    position: absolute;
+    margin: 20px 30px 20px 20px;
+    right: 0; }
+  .listing-container .fa-heart-o {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 10px 30px 20px 20px;
+    right: 0;
+    position: absolute; }
+  .listing-container img.photo {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; }
+  .listing-container img.avatar {
+    width: 70px;
+    border-radius: 35px;
+    border: 3px solid #ffffff;
+    position: absolute;
+    top: 200px;
+    left: 42%; }
+  .listing-container .description {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    color: #334e5d; }
+    .listing-container .description .title {
+      font-weight: 300; }
+    .listing-container .description .rent {
+      margin-top: 6px;
+      display: inline-block;
+      font-size: 26px;
+      float: right;
+      text-align: right;
+      color: #334e5d;
+      font-weight: 400;
+      line-height: 14px; }
+      .listing-container .description .rent .per-month {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 300; }
+  .listing-container .stats {
+    font-size: 12px;
+    color: #334e5d; }
+
+.service-icon {
+  width: 40px;
+  display: block;
+  margin: auto; }
+
+.footer {
+  font-weight: 300;
+  color: #ffffff;
+  background: #334e5d;
+  padding-top: 50px; }
+  .footer .social-container {
+    width: 113px;
+    margin: auto; }
+  .footer .copyright {
+    padding: 20px 0 20px 0;
+    text-align: center; }
+  .footer .facebook-icon {
+    width: 9px;
+    margin: 5px; }
+  .footer .twitter-icon {
+    width: 18px;
+    margin: 5px; }
+  .footer .gplus-icon {
+    width: 19px;
+    margin: 5px; }
+  .footer .instagram-icon {
+    width: 18px;
+    margin: 5px; }
+
+.join-now {
+  padding: 50px 0 50px 0;
+  text-align: center; }
+  .join-now h2 {
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 40px;
+    color: #334e5d; }
+
+.nesti-primary {
+  background: #334e5d;
+  border-color: #334e5d;
+  font-weight: 400;
+  color: #ffffff; }
+
+.nesti-secondary {
+  background: #00b2ac;
+  border-color: #00b2ac;
+  font-weight: 300;
+  color: #ffffff; }
+
+.back-arrow {
+  margin-right: 10px;
+  width: 12px; }

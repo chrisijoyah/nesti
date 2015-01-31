@@ -1,0 +1,16 @@
+.profile .left-col {
+  color: #334e5d;
+  font-weight: 300;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(50, 50, 50, 0.28); }
+  .profile .left-col .avatar {
+    margin-bottom: 10px; }
+  .profile .left-col p {
+    line-height: 14px; }
+
+.profile .right-col {
+  color: #334e5d; }
+  .profile .right-col h1 {
+    margin: 0; }

@@ -1,0 +1,47 @@
+.login-container {
+	padding: 0 40px 0 40px;
+	margin-top: 100px;
+	h1 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	input {
+		box-shadow: none;
+		margin-bottom: 10px;
+	}
+	.btn-default {
+		display: block;
+		margin: 15px auto;
+	}
+	p{
+		text-align: center;
+	}
+	.agreement{
+		border-bottom: 1px solid #dcdcdc;
+		padding-bottom: 15px;
+	}
+	.checkbox{
+		text-align: center;
+	}
+}
+
+.signup-container{
+	margin-top: 50px;
+}
+
+.signup-roles{
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 300;
+	font-size: 16px;
+	p{
+		font-size: 20px;
+		color: #696969;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #dcdcdc;
+	}
+	label {
+		font-size: 16px;
+		font-weight: 300;
+	}
+}

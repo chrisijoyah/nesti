@@ -1,0 +1,30 @@
+.footer{
+	background: #334e5d;
+	color: #ffffff;
+	font-weight: 300;
+	.footer-container{
+		.socials{
+			float: right;
+			.fa{
+				padding: 0 5px 0 5px;
+				font-size: 20px;
+				color: #ffffff;
+			}
+		}
+		padding: 50px 0 50px 0;
+		ul{
+			list-style: none;
+			padding: 0;
+			li{
+				display: inline-block;
+				padding: 0 10px 0 10px;
+				a{
+					color: #ffffff;
+					text-decoration: none;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+}
+

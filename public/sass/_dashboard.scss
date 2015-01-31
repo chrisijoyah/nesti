@@ -1,0 +1,166 @@
+.dashboard .left-col {
+	background: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 1px 1px rgba(50, 50, 50, 0.28);
+	ul{
+		list-style: none;
+		padding: 0;
+		border-radius: 6px;
+		li {
+			border-bottom: 1px solid #f2f2f2;
+			a {
+				display: inline-block;
+				padding: 20px;
+				text-decoration: none;
+				width: 100%;
+				//color: #334e5d; 
+				color: #696969;
+				.glyphicon, .fa {
+					margin-right: 4px;
+				}
+			}
+		}
+		li.active {
+			background: #334e5d;
+			a {
+				color: #ffffff;
+			}
+		}
+		li:first-child{
+			border-top-right-radius: 6px;
+			border-top-left-radius: 6px;
+		}
+		li:last-child{
+			border-bottom: none;
+			border-bottom-right-radius: 6px;
+			border-bottom-left-radius: 6px;
+		}
+	}
+}
+
+.dashboard .right-col {
+	.content {
+		background: #ffffff;
+		box-shadow: 0 1px 1px rgba(50, 50, 50, 0.28);
+		border-radius: 6px;
+		padding: 20px;
+		input {
+			box-shadow: none;
+		}
+	}
+	h1{
+		margin: -7px 0 15px 0;
+	}
+	textarea{
+		height: 200px;
+	}
+	label {
+		font-family: Lato;
+		font-weight: 400;
+	}
+}
+
+.dashboard-listing{
+	.listing-container{
+		.edit-overlay{
+			position: absolute;
+			padding: 10px;
+		}
+		height: 100%;
+	}
+	a.btn-primary{
+		float: right;
+		display: block;
+		background: $nesti-blue;
+		border-color: $nesti-blue;
+	}
+	.content {
+		background: #ffffff;
+		box-shadow: 0 1px 1px rgba(50, 50, 50, 0.28);
+		border-radius: 6px;
+		padding: 20px;
+		input {
+			box-shadow: none;
+		}
+	}
+}
+
+
+.dashboard-listing-edit {
+	button{
+		background: $nesti-blue;
+		border-color: $nesti-blue;
+	}
+	.edit-photos{
+		.edit-thumbnail{
+			width: 200px;
+			height: 140px;
+		}
+		.fileinput-exists{
+			img{
+				width: 200px;
+				height: 140px;
+			}
+		}
+	}
+
+	.btn-create{
+		float: right;
+		display: block;
+		background: $nesti-blue;
+		border-color: $nesti-blue;
+	}
+}
+
+.form-group{
+	.edit-thumbnail{
+		width: 200px;
+		height: 140px;
+	}
+	.fileinput .thumbnail > img {
+		width: 200px;
+		height: 140px;
+	}
+}
+
+
+.dashboard-profile{
+	button{
+		background: $nesti-blue;
+		border-color: $nesti-blue;
+		color: #ffffff;
+	}	
+
+	.description-edit{
+		height: 400px !important;
+	}
+
+	.checkbox label{
+		color: $nesti-blue !important;
+		font-size: 14px;
+		padding: normal;
+		background: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

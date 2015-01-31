@@ -1,0 +1,154 @@
+.profile .left-col {
+	font-weight: 300;
+	padding: 10px;
+	background: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 1px 1px rgba(50, 50, 50, 0.28);
+	.fa-circle {
+		position: absolute;
+		padding: 5px;
+		color: #2ECC71;
+	}
+	.fa-heart-o {
+		color: #ffffff;
+		font-size: 26px;
+		margin: 10px 30px 20px 20px;
+		right: 0;
+		position: absolute;
+		cursor: pointer;
+
+	}
+	.name{
+		color: $nesti-blue;
+		margin-bottom: 15px;
+		font-weight: 400;
+	}
+	.avatar {
+		margin-bottom: 15px;
+	}
+	p {
+		line-height: 14px;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.value{
+		color: #696969;
+	}
+	.role{
+		display: inline-block;
+		background: $nesti-orange;
+		color: #ffffff;
+		padding: 5px;
+		margin: 0 5px 15px 0;
+		border-radius: 2px;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.tag{
+		display: inline-block;
+		background: $nesti-blue;
+		color: #ffffff;
+		padding: 5px;
+		margin: 0 5px 5px 0;
+		border-radius: 2px;
+		font-size: 14px;
+		font-weight: 400;
+	}
+}
+
+.profile .right-col {
+	h1{
+		margin: 0 0 15px 0;
+		font-weight: 300;
+		font-size: 20px;
+	}
+	p{
+		font-size: 16px;
+		color: #696969;
+	}
+	font-weight: 300;
+	padding: 10px;
+	background: #ffffff;
+	border-radius: 6px;
+	box-shadow: 0 1px 1px rgba(50, 50, 50, 0.28);
+	color: #334e5d;
+	.description{
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+	.title{
+		color: #334e5d;
+	}
+	.value{
+		color: #696969;
+	}
+	.fa{
+		margin-right: 5px;
+	}
+
+	.availability, .locations{
+		p{
+			line-height: 14px;
+		}
+	}
+	.content-box{
+		margin-bottom: 30px;
+		.location-tag{
+			display: inline-block;
+			background: $nesti-blue;
+			color: #ffffff;
+			padding: 5px;
+			margin: 0 5px 5px 0;
+			border-radius: 2px;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.amenity-tag{
+			display: inline-block;
+			background: $nesti-blue;
+			color: #ffffff;
+			padding: 5px;
+			margin: 0 5px 5px 0;
+			border-radius: 2px;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.household-preference-tag{
+			display: inline-block;
+			background: $nesti-blue;
+			color: #ffffff;
+			padding: 5px;
+			margin: 0 5px 5px 0;
+			border-radius: 2px;
+			font-size: 14px;
+			font-weight: 400;			
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
